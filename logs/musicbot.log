@@ -1,0 +1,56 @@
+[67.243099213] 2020-04-25 23:20:31,917 - INFO - launcher: Starting sanity checks
+[67.243099213] 2020-04-25 23:20:31,917 - INFO - launcher: Checking for Python 3.5+
+[67.243099213] 2020-04-25 23:20:31,917 - INFO - launcher: Checking console encoding
+[67.243099213] 2020-04-25 23:20:31,917 - INFO - launcher: Setting console encoding to UTF-8
+[68.251132965] 2020-04-25 23:20:31,918 - INFO - launcher: Ensuring we're in the right environment
+[71.260690689] 2020-04-25 23:20:31,921 - INFO - launcher: Adding local bins/ folder to path
+[1377.568244934] 2020-04-25 23:20:33,228 - INFO - launcher: Required checks passed.
+[1378.654718399] 2020-04-25 23:20:33,229 - INFO - launcher: Optional checks passed.
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.1162147521972656] 2020-04-25 23:20:34,966 - WARNING - musicbot.config | In config.py::MainThread(1040), line 278 in find_config: Options file not found, copying example_options.ini
+[3.1202142238616943] 2020-04-25 23:20:34,970 - INFO - musicbot.config | In config.py::MainThread(1040), line 132 in run_checks: Using i18n: config/i18n/zh_TW.json
+[3.1232147216796875] 2020-04-25 23:20:34,973 - WARNING - musicbot.config | In config.py::MainThread(1040), line 230 in create_empty_file_ifnoexist: Creating config/blacklist.txt
+[3.1232147216796875] 2020-04-25 23:20:34,973 - WARNING - musicbot.config | In config.py::MainThread(1040), line 230 in create_empty_file_ifnoexist: Creating config/whitelist.txt
+[3.1252152919769287] 2020-04-25 23:20:34,975 - WARNING - musicbot.config | In config.py::MainThread(1040), line 317 in find_autoplaylist: No autoplaylist file found.
+[3.1262154579162598] 2020-04-25 23:20:34,976 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 225 in _setup_logging: Set logging level to INFO
+[3.1262154579162598] 2020-04-25 23:20:34,976 - INFO - musicbot.permissions | In permissions.py::MainThread(1040), line 62 in __init__: Permissions file not found, copying example_permissions.ini
+[3.1312153339385986] 2020-04-25 23:20:34,981 - DEBUG - musicbot.json | In json.py::MainThread(1040), line 8 in __init__: Init JSON obj with config/i18n/zh_TW.json
+[3.1352152824401855] 2020-04-25 23:20:34,985 - WARNING - musicbot.aliases | In aliases.py::MainThread(1040), line 22 in __init__: Aliases file not found, copying example_aliases.json
+[3.2182216644287109] 2020-04-25 23:20:35,068 - INFO - musicbot.bot | In bot.py::MainThread(1040), line 90 in __init__: Starting MusicBot release-260819-4-gf7d0d74
+[3.2182216644287109] 2020-04-25 23:20:35,068 - WARNING - musicbot.bot | In bot.py::MainThread(1040), line 93 in __init__: Autoplaylist is empty, disabling.
+[7.2251284122467041] 2020-04-25 23:20:39,075 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 951 in on_ready: Connection established, ready to go.
+[7.2251284122467041] 2020-04-25 23:20:39,075 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 342 in _cache_app_info: Caching app info
+[7.6219418048858643] 2020-04-25 23:20:39,472 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[7.6229310035705566] 2020-04-25 23:20:39,473 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 789 in _scheck_server_permissions: Checking server permissions
+[7.6239416599273682] 2020-04-25 23:20:39,474 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[7.6239416599273682] 2020-04-25 23:20:39,474 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 797 in _scheck_configs: Validating config
+[7.6239416599273682] 2020-04-25 23:20:39,474 - DEBUG - musicbot.config | In config.py::MainThread(1040), line 236 in async_validate: Validating options...
+[7.6239416599273682] 2020-04-25 23:20:39,474 - DEBUG - musicbot.config | In config.py::MainThread(1040), line 250 in async_validate: Acquired owner id via API
+[7.6239416599273682] 2020-04-25 23:20:39,474 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 800 in _scheck_configs: Validating permissions config
+[7.6239416599273682] 2020-04-25 23:20:39,474 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1040), line 94 in async_validate: Validating permissions...
+[7.6239416599273682] 2020-04-25 23:20:39,474 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1040), line 98 in async_validate: Fixing automatic owner group
+[7.6239416599273682] 2020-04-25 23:20:39,474 - INFO - musicbot.bot | In bot.py::MainThread(1040), line 968 in on_ready: Connected: 630751261695934464/PY機器人#1978
+[7.6249418258666992] 2020-04-25 23:20:39,475 - INFO - musicbot.bot | In bot.py::MainThread(1040), line 976 in on_ready: Owner:     475231698850676736/treedom#7084
+
+[7.6259398460388184] 2020-04-25 23:20:39,476 - INFO - musicbot.bot | In bot.py::MainThread(1040), line 979 in on_ready: Guild List:
+[7.6269323825836182] 2020-04-25 23:20:39,477 - INFO - musicbot.bot | In bot.py::MainThread(1040), line 983 in on_ready:  - .......
+[7.6269323825836182] 2020-04-25 23:20:39,477 - INFO - musicbot.bot | In bot.py::MainThread(1040), line 1039 in on_ready: Not bound to any text channels
+[7.6279425621032715] 2020-04-25 23:20:39,478 - INFO - musicbot.bot | In bot.py::MainThread(1040), line 1065 in on_ready: Not autojoining any voice channels
+[7.6289310455322266] 2020-04-25 23:20:39,479 - INFO - musicbot.bot | In bot.py::MainThread(1040), line 272 in _join_startup_channels: Found owner in "."
+[7.6289310455322266] 2020-04-25 23:20:39,479 - INFO - musicbot.bot | In bot.py::MainThread(1040), line 281 in _join_startup_channels: Attempting to join ......./.
+[9.0850274562835693] 2020-04-25 23:20:40,935 - INFO - musicbot.bot | In bot.py::MainThread(1040), line 297 in _join_startup_channels: Joined ......./.
+[9.0870189666748047] 2020-04-25 23:20:40,937 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 532 in on_player_stop: Running on_player_stop
+[43.2457222938537598] 2020-04-25 23:21:15,096 - INFO - musicbot.bot | In bot.py::MainThread(1040), line 2706 in on_message: 475231698850676736/treedom#7084: /p 少年
+[46.2178251743316650] 2020-04-25 23:21:18,068 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:少年', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '少年', 'webpage_url_basename': '少年', 'extractor_key': 'Generic'}
+[49.3880515098571777] 2020-04-25 23:21:21,238 - DEBUG - musicbot.entry | In entry.py::MainThread(1040), line 56 in get_ready_future: Created future for None
+[49.3900523185729980] 2020-04-25 23:21:21,240 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 624 in on_player_entry_added: Running on_player_entry_added
+[49.3900523185729980] 2020-04-25 23:21:21,240 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 709 in serialize_queue: Serializing queue for 485420058131038208
+[49.3930528163909912] 2020-04-25 23:21:21,243 - INFO - musicbot.entry | In entry.py::MainThread(1040), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=LGzDEu7Sh5g
+[51.3824868202209473] 2020-04-25 23:21:23,233 - DEBUG - musicbot.entry | In entry.py::MainThread(1040), line 56 in get_ready_future: Created future for None
+[55.9030368328094482] 2020-04-25 23:21:27,753 - INFO - musicbot.entry | In entry.py::MainThread(1040), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=LGzDEu7Sh5g
+[55.9070532321929932] 2020-04-25 23:21:27,757 - FFMPEG - musicbot.player | In player.py::MainThread(1040), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-LGzDEu7Sh5g-Mira.webm
+[55.9380440711975098] 2020-04-25 23:21:27,788 - DEBUG - musicbot.player | In player.py::MainThread(1040), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x000002D702B1EA88> using <discord.voice_client.VoiceClient object at 0x000002D702987508>
+[55.9400451183319092] 2020-04-25 23:21:27,790 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 460 in on_player_play: Running on_player_play
+[55.9410476684570312] 2020-04-25 23:21:27,791 - DEBUG - musicbot.bot | In bot.py::MainThread(1040), line 709 in serialize_queue: Serializing queue for 485420058131038208
